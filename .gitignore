@@ -1,0 +1,17 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# python packaging
+*.egg-info
+
+# venvs
+/.venv
+/Makefile.d/.venv
+
+# django
+app/*.log
+app/*.sqlite3
+
+# Text editors
+*.swp
